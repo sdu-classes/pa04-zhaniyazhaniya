@@ -1,4 +1,4 @@
-public class SportAndHobbyImpl implements PersonInterface, SportInterface, HobbyInterface{
+public class SportAndHobby implements PersonInterface, SportInterface, HobbyInterface{
     private String myName;
     private String sportName;
     private String hobby;
@@ -17,6 +17,7 @@ public class SportAndHobbyImpl implements PersonInterface, SportInterface, Hobby
     public String toString(){
         return String.format("%s , %d, %s, %s, %d", this.myName, this.myAge, this.sportName, this.hobby, (this.myAge * 10));
     }
+    
     @Override
     public void setName(String myName){
         this.myName = myName;
