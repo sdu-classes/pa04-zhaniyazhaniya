@@ -1,0 +1,27 @@
+public class TestAnimals {
+    public static void main(String[] args) {
+        Fish f1 = new Fish();
+        Cat1 c = new Cat1("Lady");
+        Animal1 a = new Fish("Lucky");
+        Animal1 e = new Spider();
+        Pet p = new Cat();
+        f1.eat();
+        System.out.println(f1.getName());
+        f1.play();
+        f1.walk();
+        f1.setName("Nemo");
+        System.out.println(f1.getName());
+        c.eat();
+        System.out.println(c.getName());
+        c.play();
+        c.walk();
+        a.eat();
+        a.walk();
+        e.eat();
+        e.walk();
+        System.out.println(p.getName());
+        p.play();
+        p.setName("Java");
+        System.out.println(p.getName());
+    }
+}
